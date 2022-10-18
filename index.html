@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Repair Design Studio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <section class="header-navbar b-point flex flex-wrap justify-content-between align-items-center">
+        <div class="logo">IC "Repair Design Project"</div>
+        <nav class="main-menu flex">
+          <ul>
+            <li><a class="main-menu__link active" href="index.html">Home</a></li>
+            <li><a class="main-menu__link" href="#">Projects</a></li>
+            <li><a class="main-menu__link" href="#">Measurement</a></li>
+            <li><a class="main-menu__link" href="#">Team</a></li>
+            <li><a class="main-menu__link" href="#">Reviews</a></li>
+            <li><a class="main-menu__link" href="#">Contacts</a></li>
+            <li class="sub-menu">
+              <div class="dots"><span></span><span></span><span></span></div>
+            </li>
+          </ul>
+        </nav>
+        <div class="container flex align-items-center">
+          <div class="phone">
+            <a class="phone__link"href="tel:+7(928)768-32-39">+7 (928) 768-32-39</a>
+          </div>
+          <button class="button call">Request a call</button>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="main-container">
+      <section class="top-banner">
+          <div class="container b-point flex flex-column justify-content-center">
+            <article class="top-banner__article">
+              <h1 class="h1">Turnkey Repair in the city of <span class="highlighted">Rostov-on-Don</span></h1>
+              <p class="p">
+                Get ready-made turnkey repairs on time
+                with work time saving up to 45 days and 20% from
+                cost of materials due to the organization of work
+              </p>
+              <div class="button-group flex">
+                <button class="button cost">Calculate the cost</button>
+                <button class="button application">Submit your application</button>
+              </div>
+            </article>
+          </div>
+      </section>
+      <section class="portfolio">
+        <div class="container b-point flex">
+          <div class="projects-slider flex flex-column">
+            <div class="wrapper">
+              <article class="project-info project-1">
+                <h2 class="h2">Completed projects</h2>
+                <p class="p">
+                  Only a small part of the work performed by our company is presented 
+                  on the site. For 14 years on in the construction 
+                  market we have made happy more than 1000 families
+                </p>
+                <div class="projects-gallery-mobile">
+                  <div class="controller left flex justify-content-center align-items-center"></div>
+                  <div class="controller right flex justify-content-center align-items-center"></div>
+                  <figure class="figure">
+                    <img src="img/project-1-mobile.png" alt="Room with wall clocks">
+                  </figure>
+                </div>
+                <div class="fields-grid">
+                  <div class="city field">
+                    <span class="caption">City:</span>
+                    <span class="value">Rostov-on-Don LCD admiral</span>
+                  </div>
+                  <div class="area field">
+                    <span class="caption">Apartment area:</span>
+                    <span class="value">81 m2</span>
+                  </div>
+                  <div class="time field">
+                    <span class="caption">Repair time:</span>
+                    <span class="value">3.5 months</span>
+                  </div>
+                  <div class="cost field">
+                    <span class="caption">Repair Cost:</span>
+                    <span class="value">Upon request</span>
+                  </div>                                    
+                </div>
+              </article>
+            </div>
+            <div class="switcher flex">
+              <div class="controllers arrow-left"></div>
+              <div class="bullets-pagination flex align-items-center">
+                <div class="bullet project1 active" title="project 1"></div>
+                <div class="bullet project2" title="project 2"></div>
+                <div class="bullet project3" title="project 3"></div>
+              </div>
+              <div class="controllers arrow-right"></div>
+            </div>
+
+          </div>
+          <div class="projects-gallery flex flex-column">
+            <ul class="tabs flex">
+              <li><a href="#" class="tab rostov-admiral active">Rostov-on-Don, Admiral</a></li>
+              <li><a href="#" class="tab sochi-themes">Sochi Thieves</a></li>
+              <li><a href="#" class="tab rostov-patriotic">Rostov-on-Don Patriotic</a></li>
+            </ul>
+            <div class="pictures">
+              <figure class="figure">
+                <img class="picture" src="img/project-1.png" alt="Rostov-on-Don. Admiral">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="online-control">
+        <div class="container b-point flex flex-column align-items-center">
+          <div class="offset-container">
+            <h2 class="h2">Online control</h2>
+            <div class="h2-icon flex justify-content-center align-items-center">
+              <hr class="line"/>
+              <figure class="figure">
+                <img src="img/svg/camera.svg" alt="Camera">
+              </figure>
+              <hr class="line"/>
+            </div>
+            <div class="video-box">
+              <img class="video-thumbnail" src="img/room-repairing.png" alt="Room repairing">
+              <div class="play-button"></div>
+            </div>
+          </div>
+          <hr class="d-line" />
+          <p class="p">At each facility, a camera is installed that broadcasts the progress of work on the clock. 
+            At any time, you can go to our website and monitor the progress of work in your apartment. 
+            You can watch the live broadcast from one of our facilities!
+            Leave a request below and you will receive a link to the broadcast.
+          </p>
+          <form class="form" method="post" action="#">
+            <div class="form__fields flex flex-wrap justify-content-center">
+              <div class="field flex flex-column">
+                <span class="caption">Name</span>
+                <input type="text" class="input" placeholder="What is your name:">
+              </div>
+              <div class="field flex flex-column">
+                <span class="caption">Phone</span>
+                <input type="text" class="input" placeholder="Your phone number:">
+              </div>
+              <button class="button broadcast">Submit</button>
+              <div class="field checkbox flex">
+                <input type="checkbox" class="checkbox__input" id="agree_1" value="1">
+                <label for="agree_1" class="label">I agree to the processing of personal data</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="repair-types">
+        <div class="container b-point flex flex-column align-items-center">
+          <h2 class="h2">Types of repair</h2>
+          <div class="h2-icon flex justify-content-center align-items-center">
+            <hr class="line"/>
+            <figure class="figure">
+              <img src="img/svg/tools.svg" alt="Camera">
+            </figure>
+            <hr class="line"/>
+          </div>
+          <div class="cards flex">
+            <div class="card flex flex-column">
+              <figure class="figure">
+                <img class="" src="img/redecorating.png" alt="Room redecoration">
+              </figure>
+              <div class="card__info">
+                <h3 class="h3-repair-type">Redecorating</h3>
+                <ul class="service-list">
+                  <li class="service-list__item">Dismantling of old coatings</li>
+                  <li class="service-list__item">Wallpapering</li>
+                  <li class="service-list__item">Painting walls and ceilings</li>
+                  <li class="service-list__item">Laying flooring</li>
+                  <li class="service-list__item">Replacing plumbingg</li>
+                  <li class="service-list__item">Replacing sockets and switchess</li>
+                  <li class="service-list__item">Replacing doors</li>
+                </ul>
+                <div class="price-tablet">from 900 rub / m2</div>
+              </div>
+            </div>
+            <div class="card flex flex-column">
+              <figure class="figure">
+                <img class="" src="img/overhaul.png" alt="Room overhaul">
+              </figure>
+              <div class="card__info">
+                <h3 class="h3-repair-type">Overhaul</h3>
+                <ul class="service-list">
+                  <li class="service-list__item">Dismantling of old coatings</li>
+                  <li class="service-list__item">Wallpapering</li>
+                  <li class="service-list__item">Painting walls and ceilings</li>
+                  <li class="service-list__item">Laying flooring</li>
+                  <li class="service-list__item">Replacing plumbingg</li>
+                  <li class="service-list__item">Replacing sockets and switchess</li>
+                  <li class="service-list__item">Replacing doors</li>
+                </ul>
+                <div class="price-tablet">from 1800 rub / m2</div>
+              </div>
+            </div>
+            <div class="card flex flex-column">
+              <figure class="figure">
+                <img class="" src="img/designer-repair.png" alt="Designer repairing room">
+              </figure>
+              <div class="card__info">
+                <h3 class="h3-repair-type">Designer Repair</h3>
+                <ul class="service-list">
+                  <li class="service-list__item">Dismantling of old coatings</li>
+                  <li class="service-list__item">Wallpapering</li>
+                  <li class="service-list__item">Painting walls and ceilings</li>
+                  <li class="service-list__item">Laying flooring</li>
+                  <li class="service-list__item">Replacing plumbingg</li>
+                  <li class="service-list__item">Replacing sockets and switchess</li>
+                  <li class="service-list__item">Replacing doors</li>
+                </ul>
+                <div class="price-tablet">from 4000 rub / m2</div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </section>
+      <section class="measurements">
+        <div class="container b-point flex">
+          <div class="steps-box">
+            <ul class="steps-list">
+              <li class="step">
+                <div class="circle"><span class="number">01</span></div>
+                <div class="text">
+                  Our specialist will arrive for measurements per day
+                  contact, or appoint a date convenient for you
+                </div>
+              </li>
+              <li class="step">
+                <div class="circle"><span class="number">02</span></div>
+                <div class="text">Free metering</div>
+              </li>
+              <li class="step">
+                <div class="circle"><span class="number">03</span></div>
+                <div class="text">Free consultation</div>
+              </li>
+              <li class="step">
+                <div class="circle"><span class="number">04</span></div>
+                <div class="text">
+                  Get a cost estimate and
+                  the timing of your future repairs
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="requests flex flex-column">
+            <div class="form-container flex flex-column">
+              <div class="form-title">Leave a request for free departure of the measurer</div>
+              <form class="form" method="post" action="#">
+                <div class="field flex flex-column">
+                  <span class="caption">Name</span>
+                  <input type="text" class="input" placeholder="What is your name:">
+                </div>
+                <div class="field flex flex-column">
+                  <span class="caption">Phone</span>
+                  <input type="text" class="input" placeholder="Your phone number:">
+                </div>
+                <div class="field flex flex-column">
+                  <span class="caption">Email</span>
+                  <input type="text" class="input" placeholder="Your email:">
+                </div>
+                <div class="field checkbox flex">
+                  <input type="checkbox" class="checkbox__input" id="agree_2" value="1">
+                  <label for="agree_2" class="label">I agree to the processing of personal data</label>
+                </div>
+                <button class="button measure">Call the measurer</button>
+              </form>   
+            </div>
+            <div class="discount flex align-items-center">
+              <div class="piggy-bank"></div>
+              <a href="#" class="help-link">Help save 10 - 20% of the cost of materials</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="design-styles">
+        <div class="container b-point flex">
+          <div class="styles-info">
+            <h2 class="h2">We realize your wildest fantasies</h2>
+            <ul class="styles-list">
+              <li class="style"><a href="#" class="style__link active">American classic</a></li>
+              <li class="style"><a href="#" class="style__link">Empire</a></li>
+              <li class="style"><a href="#" class="style__link">Classical</a></li>
+              <li class="style"><a href="#" class="style__link">Loft</a></li>
+              <li class="style"><a href="#" class="style__link">Minimalism</a></li>
+              <li class="style"><a href="#" class="style__link">Provence</a></li>
+              <li class="style"><a href="#" class="style__link">Romanticism</a></li>
+              <li class="style"><a href="#" class="style__link">Scandinavian style</a></li>
+              <li class="style"><a href="#" class="style__link">Mediterranean style</a></li>
+              <li class="style"><a href="#" class="style__link">High tech</a></li>
+              <li class="style"><a href="#" class="style__link">Eclecticism</a></li>
+            </ul>
+          </div>
+          <div class="styles-gallery">
+            <div class="container flex">
+              <div class="columns column-1 flex flex-column">
+                <figure class="figure">
+                  <img src="img/wall-clocks.png" alt="Room with wall clocks">
+                </figure>
+                <figure class="figure">
+                  <img src="img/living-room.png" alt="Living room">
+                </figure>
+              </div>
+              <div class="columns column-2 flex flex-column">
+                <figure class="figure">
+                  <img src="img/sofa.png" alt="Room with a sofa">
+                </figure>
+                <figure class="figure">
+                  <img src="img/wall-and-table.png" alt="Table in front of the wall">
+                </figure>
+              </div>
+            </div>
+            <div class="container-mobile">
+              <div class="controller left flex justify-content-center align-items-center"></div>
+              <div class="controller right flex justify-content-center align-items-center"></div>
+              <figure class="figure">
+                <img src="img/wall-clocks-mobile.png" alt="Room with wall clocks">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="clients">
+        <div class="container b-point flex flex-column align-items-center">
+          <h2 class="h2">Our clients</h2>
+          <div class="h2-icon flex justify-content-center align-items-center">
+            <hr class="line"/>
+            <figure class="figure">
+              <img src="img/svg/handshake.svg" alt="Handshake">
+            </figure>
+            <hr class="line"/>
+          </div>      
+          <p class="p">80% of our customers recommend us to their friends and family.</p>
+          <div class="client-cards flex">
+            <div class="card flex flex-column">
+              <div class="client-info">
+                <figure class="figure flex align-items-center">
+                  <img class="avatar" src="img/client-1.png" alt="Woman">
+                  <figcaption class="name">Fedosova Maria Konstantinovna</figcaption>
+                </figure>
+              </div>
+              <p class="feedback">
+                I want to thank the guys for their work. 
+                We put your shower part in repair. I am very grateful that I referred to the repair as to my own. 
+                Great thanks I express the project to Georgia for its professionalism and approach. 
+                The repair process was turned out in terms, faster than anticipated. 
+                Team mobile and professional. Works performed qualitatively without comments. 
+                Quality satisfied. Prices democratic. I recommend these masters..
+              </p>
+              <div class="graphic-tablet flex">
+                <div class="area flex align-items-center">40 m2</div>
+                <div class="period flex align-items-center">48 days</div>
+              </div>
+            </div>         
+            <div class="card flex flex-column">
+              <div class="client-info">
+                <figure class="figure flex align-items-center">
+                  <img class="avatar" src="img/client-2.png" alt="Woman">
+                  <figcaption class="name">Afanasyev Sergey Alexandrovich</figcaption>
+                </figure>
+              </div>
+              <p class="feedback">
+                I want to thank the guys for their work. 
+                We put your shower part in repair. I am very grateful that I referred to the repair as to my own. 
+                Great thanks I express the project to Georgia for its professionalism and approach. 
+                The repair process was turned out in terms, faster than anticipated. 
+                Team mobile and professional. Works performed qualitatively without comments. 
+                Quality satisfied. Prices democratic. I recommend these masters..
+              </p>
+              <div class="graphic-tablet flex">
+                <div class="area flex align-items-center">90 m2</div>
+                <div class="period flex align-items-center">128 days</div>
+              </div>
+            </div>   
+            <div class="card flex flex-column">
+              <div class="client-info">
+                <figure class="figure flex align-items-center">
+                  <img class="avatar" src="img/client-3.png" alt="Woman">
+                  <figcaption class="name">Kiriev Egor Leonidovich</figcaption>
+                </figure>
+              </div>
+              <p class="feedback">
+                I want to thank the guys for their work. 
+                We put your shower part in repair. I am very grateful that I referred to the repair as to my own. 
+                Great thanks I express the project to Georgia for its professionalism and approach. 
+                The repair process was turned out in terms, faster than anticipated. 
+                Team mobile and professional. Works performed qualitatively without comments. 
+                Quality satisfied. Prices democratic. I recommend these masters..
+              </p>
+              <div class="graphic-tablet flex">
+                <div class="area flex align-items-center">56 m2</div>
+                <div class="period flex align-items-center">86 days</div>
+              </div>
+            </div>   
+          </div>  
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container b-point flex flex-column align-items-center">
+          <div class="contact-form">
+            <div class="form-title">Have any questions?</div>
+            <form class="form" method="post" action="#">
+              <div class="field name flex flex-column">
+                <span class="caption">Name</span>
+                <input type="text" class="input" placeholder="What is your name:">
+              </div>
+              <div class="field phone flex flex-column">
+                <span class="caption">Phone</span>
+                <input type="text" class="input" placeholder="Your phone number:">
+              </div>
+              <div class="field question flex flex-column">
+                <span class="caption">Question</span>
+                <input type="text" class="input" placeholder="I want to know:">
+              </div>
+              <div class="field checkbox flex">
+                <input type="checkbox" class="checkbox__input" id="agree_3" value="1">
+                <label for="agree_3" class="label">I agree to the processing of personal data</label>
+              </div>
+              <button class="button">Submit</button>
+            </form>   
+          </div>
+          <p class="address">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29</p>
+          <div class="socials">
+            <a class="email" href="mailto:company@mail.com" title="Email"></a>
+            <a class="instagram" href="#" target="_blank" title="Instagram"></a>
+          </div>
+          <div class="map">
+            <img class="static-map" src="img/static-map.png" alt="Static Map">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer-navbar b-point flex flex-wrap justify-content-between align-items-center">
+        <div class="logo">IC "Repair Design Project"</div>
+        <nav class="footer-menu flex">
+          <ul>
+            <li><a class="footer-menu__link active" href="index.html">Home</a></li>
+            <li><a class="footer-menu__link" href="#">Projects</a></li>
+            <li><a class="footer-menu__link" href="#">Measurement</a></li>
+            <li><a class="footer-menu__link" href="#">Team</a></li>
+            <li><a class="footer-menu__link" href="#">Reviews</a></li>
+            <li><a class="footer-menu__link" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="container flex align-items-center">
+          <div class="phone">
+            <a class="phone__link"href="tel:+7(928)768-32-39">+7 (928) 768-32-39</a>
+          </div>
+          <button class="button call">Request a call</button>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+
+</html>
